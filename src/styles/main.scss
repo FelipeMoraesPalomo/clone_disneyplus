@@ -3,6 +3,7 @@
 @use 'shows';
 @use 'plans';
 @use 'available-devices';
+@use 'faq';
 
 @font-face{
     font-family: Avenir;
@@ -39,6 +40,10 @@ body{
     @include text($fontSize);
     color: variaveis.$corTextoSecundario;
 
+}
+
+.margin-top16{
+    margin-top: 16px;
 }
 
 .text--big{
